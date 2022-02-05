@@ -1,2 +1,2 @@
 # JAVA
-Repositório feito para guardar meus exercícios do curso de JAVA
+Repositório feito para guardar meus estudos de JAVA
