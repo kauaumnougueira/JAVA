@@ -21,13 +21,11 @@ public class programa{
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double p = (x.a + x.b + x.c)/2.0;
-        double areaX = Math.sqrt(p* (p-x.a) * (p-x.b) * (p-x.c));
+        //Método area inserido :D  
+        double areaX = x.area();
 
-        p =  (y.a + y.b + y.c)/2.0;
-        double areaY = Math.sqrt(p* (p-y.a) * (p-y.b) * (p-y.c));
-        sc.close();
-        
+        double areaY = y.area();
+
         System.out.println("A áre3a do triângulo X é: " + areaX);
         System.out.println("A áre3a do triângulo Y é: " + areaY);
 
@@ -36,5 +34,7 @@ public class programa{
         }else{
             System.out.println("A área do triângulo X é maior que a área do triângulo Y");
         }
+
+        sc.close();
     }
 }
