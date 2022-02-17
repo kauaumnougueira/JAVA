@@ -26,8 +26,8 @@ public class programa{
 
         double areaY = y.area();
 
-        System.out.println("A áre3a do triângulo X é: " + areaX);
-        System.out.println("A áre3a do triângulo Y é: " + areaY);
+        System.out.println("A área do triângulo X é: " + areaX);
+        System.out.println("A área do triângulo Y é: " + areaY);
 
         if(areaY > areaX){
             System.out.println("A área do triângulo Y é maior que a área do triângulo X");
