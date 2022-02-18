@@ -1,4 +1,4 @@
-package exercícios.exerciciosclasseseobjetos.exe2;
+package exercícios.exerciciosclasseseobjetos.ex2;
 
 public class functionsex2 {
     public String name;
