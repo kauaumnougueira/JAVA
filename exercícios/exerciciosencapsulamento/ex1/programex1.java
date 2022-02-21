@@ -48,7 +48,7 @@ public class programex1 {
                 System.out.println(account);
             }
             System.out.println("-------------");
-            System.out.println("do you want to keep messing with your account?");
+            System.out.println("do you want to keep messing with your account? (y/n)");
             youWant = sc.next().charAt(0);
         }      
         sc.close();
