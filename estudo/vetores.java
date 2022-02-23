@@ -19,7 +19,7 @@ public class vetores {
         for (int i =0; i<n; i++){
             sum += height[i];
         }
-        System.out.printf("average Height: %.2f", sum/3);
+        System.out.printf("average Height: %.2f", sum/n);
         input.close();
     }
 }
